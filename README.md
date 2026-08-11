@@ -73,8 +73,7 @@ Online-Sales-Retail-Dashboard/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```text
-
+```
 
 ## Running the Application
 
