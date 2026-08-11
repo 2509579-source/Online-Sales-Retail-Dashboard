@@ -73,6 +73,14 @@ Online-Sales-Retail-Dashboard/
 ├── README.md
 └── .gitignore
 
+## Running the Application
+
+After activating the virtual environment and installing the requirements, run:
+
+python app.py
+
+Then open http://127.0.0.1:5000/ in your browser.
+
 ## Project Routes
 
 - `/` — Dashboard home page
