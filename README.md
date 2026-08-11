@@ -40,6 +40,14 @@ The dataset contains 60 transactions across 5 product categories.
 - HTML
 - Jinja2
 
+## Requirements
+
+- Python 3
+- Flask
+- Pandas
+- Matplotlib
+- NumPy
+
 ## Project Structure
 
 ```text
