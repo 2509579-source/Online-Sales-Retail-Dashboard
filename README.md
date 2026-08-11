@@ -86,3 +86,7 @@ Then open http://127.0.0.1:5000/ in your browser.
 - `/` — Dashboard home page
 - `/charts` — Displays the sales charts
 - `/search` — Search and filter transactions by category
+
+## Author
+
+Developed as an Online Retail Sales Dashboard project using Flask, Pandas, and Matplotlib.
