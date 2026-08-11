@@ -50,6 +50,7 @@ The dataset contains 60 transactions across 5 product categories.
 
 ## Project Structure
 
+
 ```text
 Online-Sales-Retail-Dashboard/
 │
@@ -72,6 +73,8 @@ Online-Sales-Retail-Dashboard/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```text
+
 
 ## Running the Application
 
