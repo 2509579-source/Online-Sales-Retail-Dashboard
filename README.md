@@ -64,3 +64,9 @@ Online-Sales-Retail-Dashboard/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+## Project Routes
+
+- `/` — Dashboard home page
+- `/charts` — Displays the sales charts
+- `/search` — Search and filter transactions by category
