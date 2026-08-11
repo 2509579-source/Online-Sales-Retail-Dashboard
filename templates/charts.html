@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style>
+    .chart-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+</style>
+
+
+<h2>Sales Charts</h2>
+
+<h3>Sales by Category</h3>
+
+<img class="chart-image"
+     src="{{ url_for('static', filename='category_sales.png') }}"
+     alt="Sales by Category Bar Chart">
+
+<h3>Monthly Sales Trend</h3>
+
+<img class="chart-image"
+     src="{{ url_for('static', filename='monthly_sales.png') }}"
+     alt="Monthly Sales Trend Line Chart">
+
+<h3>Sales by Payment Method</h3>
+
+<img class="chart-image"
+     src="{{ url_for('static', filename='payment_sales.png') }}"
+     alt="Sales by Payment Method Pie Chart">
+
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Search Products by Category</h2>
+
+<form method="GET" action="/search">
+    <input
+        type="text"
+        name="category"
+        placeholder="Enter a category"
+    >
+
+    <button type="submit">Search</button>
+</form>
+
+{% if results is not none %}
+    <h3>Search Results</h3>
+
+    {% if results.empty %}
+        <p>No products found.</p>
+    {% else %}
+        <table border="1">
+            <tr>
+                <th>Transaction ID</th>
+                <th>Date</th>
+                <th>Category</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Sales</th>
+                <th>Payment Method</th>
+            </tr>
+
+            {% for row in results.itertuples() %}
+            <tr>
+                <td>{{ row.transaction_id }}</td>
+                <td>{{ row.date }}</td>
+                <td>{{ row.category }}</td>
+                <td>{{ row.product }}</td>
+                <td>{{ row.quantity }}</td>
+                <td>{{ row.unit_price }}</td>
+                <td>{{ row.sales }}</td>
+                <td>{{ row.payment_method }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+{% endif %}
+
+{% endblock %}

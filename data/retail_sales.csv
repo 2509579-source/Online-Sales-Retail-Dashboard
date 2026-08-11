@@ -1,0 +1,61 @@
+transaction_id,date,category,product,quantity,unit_price,sales,payment_method
+1,2026-09-27,Home & Kitchen,Kettle,4,654,2616,Cash
+2,2026-07-17,Clothing,Jeans,4,4208,16832,Mobile Money
+3,2026-05-28,Electronics,Headphones,2,8158,16316,Mobile Money
+4,2026-01-24,Electronics,Speaker,3,10142,30426,Mobile Money
+5,2026-10-06,Home & Kitchen,Blender,1,5891,5891,Cash
+6,2026-03-09,Clothing,Sneakers,1,2756,2756,Mobile Money
+7,2026-11-16,Electronics,Mouse,1,5540,5540,Mobile Money
+8,2026-10-03,Home & Kitchen,Pan,1,7075,7075,Cash
+9,2026-01-09,Clothing,Jacket,1,1158,1158,Card
+10,2026-06-01,Electronics,Mouse,4,6783,27132,Cash
+11,2026-12-14,Home & Kitchen,Blender,2,14616,29232,Mobile Money
+12,2026-08-04,Sports,Dumbbells,2,8049,16098,Mobile Money
+13,2026-02-10,Sports,Dumbbells,2,8490,16980,Card
+14,2026-10-10,Beauty,Lipstick,3,12568,37704,Mobile Money
+15,2026-11-17,Sports,Yoga Mat,3,596,1788,Card
+16,2026-10-04,Beauty,Perfume,4,9345,37380,Mobile Money
+17,2026-03-04,Sports,Running Shoes,2,1654,3308,Cash
+18,2026-06-23,Sports,Running Shoes,2,1101,2202,Cash
+19,2026-05-14,Home & Kitchen,Kettle,2,6953,13906,Card
+20,2026-01-18,Home & Kitchen,Kettle,3,3964,11892,Mobile Money
+21,2026-07-25,Sports,Yoga Mat,5,9283,46415,Mobile Money
+22,2026-04-03,Sports,Yoga Mat,1,12672,12672,Cash
+23,2026-09-14,Clothing,Jacket,4,13821,55284,Card
+24,2026-02-19,Electronics,Headphones,2,4027,8054,Card
+25,2026-09-09,Sports,Dumbbells,3,725,2175,Card
+26,2026-08-04,Clothing,Jeans,3,11241,33723,Mobile Money
+27,2026-02-12,Home & Kitchen,Pan,1,13343,13343,Card
+28,2026-10-17,Sports,Running Shoes,2,8691,17382,Mobile Money
+29,2026-08-31,Beauty,Shampoo,2,6138,12276,Mobile Money
+30,2026-03-12,Electronics,Headphones,2,3635,7270,Card
+31,2026-02-13,Clothing,Jacket,3,13159,39477,Cash
+32,2026-09-30,Clothing,T-Shirt,5,7907,39535,Cash
+33,2026-11-18,Sports,Running Shoes,3,3306,9918,Cash
+34,2026-06-24,Electronics,Keyboard,2,9119,18238,Cash
+35,2026-07-19,Sports,Football,4,4596,18384,Mobile Money
+36,2026-04-17,Clothing,Jacket,5,12871,64355,Cash
+37,2026-08-14,Beauty,Lipstick,3,7825,23475,Cash
+38,2026-04-15,Clothing,T-Shirt,4,12835,51340,Cash
+39,2026-01-08,Beauty,Shampoo,3,11549,34647,Mobile Money
+40,2026-06-28,Sports,Football,2,5263,10526,Cash
+41,2026-04-17,Electronics,Speaker,1,3567,3567,Card
+42,2026-05-06,Sports,Yoga Mat,3,8024,24072,Card
+43,2026-04-25,Electronics,Mouse,1,8010,8010,Card
+44,2026-12-09,Beauty,Face Cream,5,9030,45150,Card
+45,2026-04-12,Beauty,Shampoo,2,4404,8808,Cash
+46,2026-06-21,Sports,Running Shoes,2,13864,27728,Mobile Money
+47,2026-10-25,Sports,Yoga Mat,5,12303,61515,Card
+48,2026-06-10,Beauty,Shampoo,5,10225,51125,Card
+49,2026-02-20,Home & Kitchen,Kettle,2,13056,26112,Cash
+50,2026-06-25,Clothing,T-Shirt,5,5458,27290,Card
+51,2026-09-22,Electronics,Speaker,3,3120,9360,Cash
+52,2026-11-08,Clothing,Sneakers,3,1840,5520,Card
+53,2026-11-16,Beauty,Lipstick,5,14707,73535,Mobile Money
+54,2026-03-09,Beauty,Lipstick,4,10846,43384,Card
+55,2026-06-18,Clothing,Jeans,5,2011,10055,Mobile Money
+56,2026-11-06,Home & Kitchen,Coffee Maker,3,1668,5004,Cash
+57,2026-01-30,Clothing,Jacket,4,3113,12452,Card
+58,2026-01-25,Clothing,Sneakers,4,719,2876,Card
+59,2026-03-13,Sports,Football,4,14099,56396,Card
+60,2026-02-27,Electronics,Headphones,3,4859,14577,Cash
