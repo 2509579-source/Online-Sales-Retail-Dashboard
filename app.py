@@ -1,9 +1,20 @@
 from flask import Flask, render_template, request
 import pandas as pd
 
+"""
+Online Retail Sales Dashboard
+
+A Flask web application that analyzes retail sales data
+and displays sales charts and category search results.
+"""
+
+
+# Load and prepare the retail sales dataset
 df = pd.read_csv("data/retail_sales.csv")
 df["date"] = pd.to_datetime(df["date"])
 
+
+# Calculate sales totals for each chart
 category_sales = df.groupby("category")["sales"].sum()
 
 monthly_sales = df.groupby(df["date"].dt.to_period("M"))["sales"].sum()
@@ -13,6 +24,7 @@ payment_sales = df.groupby("payment_method")["sales"].sum()
 
 import matplotlib.pyplot as plt
 
+# Generate the sales charts
 category_sales.plot(kind="bar")
 plt.title("Sales by Category")
 plt.xlabel("Category")
@@ -59,10 +71,13 @@ def charts():
 
 @app.route("/search")
 def search():
+    # Get the category entered by the user
     category = request.args.get("category", "")
 
     results = None
-
+    
+    
+# Filter transactions when a category is provided
     if category:
         results = df[df["category"].str.contains(category, case=False, na=False)]
 
