@@ -7,13 +7,14 @@
 </head>
 <body>
 
-    <h1>Online Retail Sales Dashboard</h1>
+    <h1>Online Retail Sales Dashboard</h1
 
-    <nav>
-        <a href="/">Home</a> |
-        <a href="/charts">Charts</a> |
-        <a href="/search">Search</a>
-    </nav>
+<nav>
+    {% for item in navigation %}
+        <a href="{{ item.url }}">{{ item.name }}</a>
+        {% if not loop.last %} | {% endif %}
+    {% endfor %}
+</nav>
 
     <hr>
 

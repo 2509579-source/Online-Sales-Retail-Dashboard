@@ -39,16 +39,22 @@ plt.tight_layout()
 plt.savefig("static/monthly_sales.png")
 plt.close()
 
+navigation = [
+    {"name": "Home", "url": "/"},
+    {"name": "Charts", "url": "/charts"},
+    {"name": "Search", "url": "/search"}
+]
+
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.html", navigation=navigation)
 
 
 @app.route("/charts")
 def charts():
-    return render_template("charts.html")
+    return render_template("charts.html", navigation=navigation)
 
 
 @app.route("/search")
@@ -60,7 +66,7 @@ def search():
     if category:
         results = df[df["category"].str.contains(category, case=False, na=False)]
 
-    return render_template("search.html", results=results)
+    return render_template("search.html", results=results, navigation=navigation)
 
 
 if __name__ == "__main__":
