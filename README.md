@@ -53,26 +53,26 @@ The dataset contains 60 transactions across 5 product categories.
 
 ```text
 Online-Sales-Retail-Dashboard/
-│
-├── data/
-│   └── retail_sales.csv
-│
-├── static/
-│   ├── category_sales.png
-│   ├── monthly_sales.png
-│   └── payment_sales.png
-│
-├── templates/
-│   ├── base.html
-│   ├── charts.html
-│   ├── index.html
-│   └── search.html
-│
-├── app.py
-├── generate_data.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+|
+|-- data/
+|   `-- retail_sales.csv
+|
+|-- static/
+|   |-- category_sales.png
+|   |-- monthly_sales.png
+|   `-- payment_sales.png
+|
+|-- templates/
+|   |-- base.html
+|   |-- charts.html
+|   |-- index.html
+|   `-- search.html
+|
+|-- app.py
+|-- generate_data.py
+|-- requirements.txt
+|-- README.md
+`-- .gitignore
 ```
 
 ## Running the Application
@@ -85,9 +85,9 @@ Then open http://127.0.0.1:5000/ in your browser.
 
 ## Project Routes
 
-- `/` — Dashboard home page
-- `/charts` — Displays the sales charts
-- `/search` — Search and filter transactions by category
+- `/` - Dashboard home page
+- `/charts` - Displays the sales charts
+- `/search` - Search and filter transactions by category
 
 ## Author
 
